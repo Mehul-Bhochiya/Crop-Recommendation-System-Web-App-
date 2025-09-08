@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lentil</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="../styles.css">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="/">Crop Recommendation</a>
+        </div>
+    </nav>
+
+    <div class="container">
+        <h1>The suggested crop is Lentil</h1>
+        <div class="row">
+            <div class="col-md-5">
+                <img src="{{ url_for('static', filename='images/lentil.jpeg') }}" alt="Barley Image" class="img-fluid">
+            </div>
+            <div class="col-md-7">
+                <h3>Information about Lentil</h3>
+                <p>Lentils are a highly nutritious pulse crop rich in protein and fiber. They grow well in cool climates with moderate rainfall and thrive in well-drained loamy soil. Lentils are widely consumed as a staple food in various dishes, including soups and stews. The plants are drought-resistant and help improve soil health by fixing nitrogen.</p>
+            </div>
+        </div>
+        <div class="mt-4">
+            <h3>Best Harvesting Techniques</h3>
+            <p>Lentils are harvested when the pods turn brown, and the seeds inside are firm. Manual harvesting involves cutting the plants and drying them before threshing. Mechanical harvesters are used in large-scale farming to speed up the process. Proper drying is essential to reduce moisture content below 12% for safe storage. Storing lentils in airtight containers helps prevent insect infestations.</p>
+        </div>
+    </div>
+
+    <script src="../script.js"></script>
+</body>
+</html>

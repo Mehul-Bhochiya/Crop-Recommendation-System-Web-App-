@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spinach</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="../styles.css">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="/">Crop Recommendation</a>
+        </div>
+    </nav>
+
+    <div class="container">
+        <h1>The suggested crop is Spinach</h1>
+        <div class="row">
+            <div class="col-md-5">
+                <img src="{{ url_for('static', filename='images/spinach.jpeg') }}" alt="Barley Image" class="img-fluid">
+            </div>
+            <div class="col-md-7">
+                <h3>Information about Spinach</h3>
+                <p>Spinach is a leafy green vegetable known for its high vitamin and mineral content. It thrives in cool temperatures with well-drained, nutrient-rich soil. Spinach grows quickly and can be harvested multiple times in a season. It is used in salads, soups, and cooked dishes.</p>
+            </div>
+        </div>
+        <div class="mt-4">
+            <h3>Best Harvesting Techniques</h3>
+            <p>Spinach is harvested when the leaves reach full size but remain tender. Manual harvesting involves cutting the outer leaves while allowing inner leaves to grow. Mechanical harvesters are used in large farms for bulk production. Freshly harvested spinach should be stored in refrigerated conditions to maintain freshness and prevent wilting.</p>
+        </div>
+    </div>
+
+    <script src="../script.js"></script>
+</body>
+</html>

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pulses</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="../styles.css">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="/">Crop Recommendation</a>
+        </div>
+    </nav>
+
+    <div class="container">
+        <h1>The suggested crop is Pulses</h1>
+        <div class="row">
+            <div class="col-md-5">
+                <img src="{{ url_for('static', filename='images/pulses.jpeg') }}" alt="Barley Image" class="img-fluid">
+            </div>
+            <div class="col-md-7">
+                <h3>Information about Pulses</h3>
+                <p>Pulses are a group of leguminous crops rich in proteins and essential nutrients. They include chickpeas, lentils, peas, and kidney beans, which are widely grown for human consumption. Pulses thrive in well-drained loamy soil with moderate rainfall and require minimal irrigation. These crops fix nitrogen in the soil, improving soil fertility.</p>
+            </div>
+        </div>
+        <div class="mt-4">
+            <h3>Best Harvesting Techniques</h3>
+            <p>Pulses are harvested when the pods dry out and turn brown, indicating seed maturity. Manual harvesting involves cutting plants and allowing them to dry before threshing. Mechanical harvesters are used in large-scale farms for efficiency. Post-harvest drying is essential to reduce moisture content below 12% for safe storage. Proper storage in cool, dry conditions prevents pest infestations.</p>
+        </div>
+    </div>
+
+    <script src="../script.js"></script>
+</body>
+</html>

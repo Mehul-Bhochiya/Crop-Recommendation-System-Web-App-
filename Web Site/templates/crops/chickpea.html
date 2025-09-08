@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chickpea</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="../styles.css">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="/">Crop Recommendation</a>
+        </div>
+    </nav>
+
+    <div class="container">
+        <h1>The suggested crop is Rice</h1>
+        <div class="row">
+            <div class="col-md-5">
+                <img src="{{ url_for('static', filename='images/chickpea.jpeg') }}" alt="Barley Image" class="img-fluid">
+            </div>
+            <div class="col-md-7">
+                <h3>Information about Chickpea</h3>
+                <p>Chickpea, also known as Bengal gram or garbanzo bean, is a protein-rich legume widely cultivated for its nutritional value. It thrives in semi-arid regions with well-drained loamy soil and requires moderate rainfall. Chickpea plants fix nitrogen in the soil, improving soil fertility. The crop is an essential ingredient in various cuisines, including hummus and chickpea flour.</p>
+            </div>
+        </div>
+        <div class="mt-4">
+            <h3>Best Harvesting Techniques</h3>
+            <p>Chickpeas are harvested when the pods turn yellow-brown and become dry. Manual harvesting involves pulling the plants out and drying them before threshing. In large farms, mechanical harvesters cut the plants and separate the seeds simultaneously. The harvested seeds should be dried to a moisture content below 12% for safe storage. Proper storage in dry, pest-free conditions prevents spoilage.
+
+            </p>
+        </div>
+    </div>
+
+    <script src="../script.js"></script>
+</body>
+</html>

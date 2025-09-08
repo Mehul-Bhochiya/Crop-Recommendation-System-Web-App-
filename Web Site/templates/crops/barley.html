@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Barley</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="../styles.css">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="/">Crop Recommendation</a>
+        </div>
+    </nav>
+
+    <div class="container">
+        <h1>The suggested crop is Barley</h1>
+        <div class="row">
+            <div class="col-md-5">
+                <img src="{{ url_for('static', filename='images/barley.jpeg') }}" alt="Barley Image" class="img-fluid">
+            </div>
+            <div class="col-md-7">
+                <h3>Information about Barley</h3>
+                <p>Barley is a cereal grain used for food, animal feed, and brewing industries. It is rich in fiber and proteins, making it a valuable crop for human and livestock consumption. Barley grows well in cool climates with well-drained sandy loam soils. It undergoes different growth stages, including tillering, heading, and grain filling, before it matures.</p>
+            </div>
+        </div>
+        <div class="mt-4">
+            <h3>Best Harvesting Techniques</h3>
+            <p>Barley is harvested when the grains turn golden brown and reach 12-14% moisture content. Manual harvesting is done with sickles, while combine harvesters are used for large-scale operations. After cutting, threshing is performed to separate grains from husks. Harvesting in dry conditions prevents fungal infections. Proper drying and storage in cool, dry conditions maintain grain quality for food and brewing industries.</p>
+        </div>
+    </div>
+
+    <script src="../script.js"></script>
+</body>
+</html>

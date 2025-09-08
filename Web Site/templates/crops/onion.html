@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Onion</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="../styles.css">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="/">Crop Recommendation</a>
+        </div>
+    </nav>
+
+    <div class="container">
+        <h1>The suggested crop is Onion</h1>
+        <div class="row">
+            <div class="col-md-5">
+                <img src="{{ url_for('static', filename='images/onion.jpeg') }}" alt="Barley Image" class="img-fluid">
+            </div>
+            <div class="col-md-7">
+                <h3>Information about Onion</h3>
+                <p>Onion is a widely used vegetable grown for its edible bulbs. It thrives in well-drained sandy loam soil with moderate irrigation. Onions are used in cooking, seasoning, and as a base ingredient in many dishes worldwide. The crop has a strong aroma and medicinal properties.</p>
+            </div>
+        </div>
+        <div class="mt-4">
+            <h3>Best Harvesting Techniques</h3>
+            <p>Onions are harvested when the leaves dry out and fall over. Manual harvesting involves pulling the bulbs from the soil and allowing them to dry before storage. Large-scale farms use mechanical diggers for efficiency. Proper curing is essential to enhance storage life. Onions should be stored in a dry, ventilated area to prevent sprouting and decay.</p>
+        </div>
+    </div>
+
+    <script src="../script.js"></script>
+</body>
+</html>
